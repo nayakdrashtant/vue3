@@ -8,11 +8,15 @@
 
     <style>
         @keyframes spinner {
-            to {transform: rotate(360deg);}
+            to {
+                transform: rotate(360deg);
+            }
         }
-        .is-loading{
+
+        .is-loading {
             color: transparent;
         }
+
         .is-loading:before {
             content: '';
             box-sizing: border-box;
@@ -30,7 +34,7 @@
         }
     </style>
 </head>
-<body class="h-full grid place-items-center">
+<body class="h-full grid place-items-center bg-gray-800 text-white">
 <div id="app"></div>
 <script type="module">
     import App from "./js/components/App.js";
