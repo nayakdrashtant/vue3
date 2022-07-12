@@ -2,7 +2,7 @@
 learning vue 3 step by step
 
 # Installation
-#### npm install 
+``` npm install ```
 
 # To Run JSON DB
-#### npx json-server db.json -p 3001
+``` npx json-server db.json -p 3001 ```
