@@ -2,7 +2,7 @@ export default {
     template: `
         <div class="flex gap-2">
             <button
-                 @click="$emit('change',tag)"
+                 @click="$emit('update:currentTag',tag)"
                  class="border rounded px-1 py-px text-xs"
                  v-for="tag in tags"
                  :class="{
